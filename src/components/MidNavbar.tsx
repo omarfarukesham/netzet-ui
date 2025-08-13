@@ -10,7 +10,7 @@ const MidNavbar = () => {
     <nav className="bg-black backdrop-blur-sm text-white sticky top-0 z-50 w-full">
       {/* Desktop Layout - Figma Specifications */}
       <div 
-        className="hidden md:flex justify-between items-center mx-auto"
+        className="hidden md:flex justify-between mx-auto px-4 sm:px-6 lg:px-8 mx-w-7xl mt-3"
         style={{
           height: '74px',
           paddingLeft: '211px',
@@ -20,28 +20,28 @@ const MidNavbar = () => {
         }}
       >
         {/* Desktop Logo */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 w-[170px] h-[73px] flex items-center">
           <Image 
             src="/logo.png" 
             alt="Netzet logo" 
-            width={120} 
-            height={40}
-            className="object-contain"
+            width={170} 
+            height={73}
+            className="object-cover"
           />
         </div>
 
         {/* Desktop Navigation */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-start space-x-6 justify-start">
           <a 
             href="#" 
-            className="hover:text-cyan-400 transition-colors duration-200"
+            className="hover:text-cyan-400 transition-colors duration-200 font-medium text-lg"
             style={{ color: '#A9A9A9' }}
           >
             About us
           </a>
           <a 
             href="#" 
-            className="hover:text-cyan-400 transition-colors duration-200"
+            className="hover:text-cyan-400 transition-colors duration-200 font-medium text-lg"
             style={{ color: '#A9A9A9' }}
           >
             Contact
@@ -82,7 +82,7 @@ const MidNavbar = () => {
           <div className="px-4 py-4 space-y-3">
             <a 
               href="#" 
-              className="block py-3 px-2 hover:text-cyan-400 hover:bg-gray-800 rounded-md transition-colors duration-200"
+              className="block py-3 px-2 hover:text-cyan-400 hover:bg-gray-800 rounded-md transition-colors duration-200 font-medium text-lg"
               style={{ color: '#A9A9A9' }}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -90,7 +90,7 @@ const MidNavbar = () => {
             </a>
             <a 
               href="#" 
-              className="block py-3 px-2 hover:text-cyan-400 hover:bg-gray-800 rounded-md transition-colors duration-200"
+              className="block py-3 px-2 hover:text-cyan-400 hover:bg-gray-800 rounded-md transition-colors duration-200 font-medium text-lg"
               style={{ color: '#A9A9A9' }}
               onClick={() => setIsMenuOpen(false)}
             >
