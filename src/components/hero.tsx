@@ -6,14 +6,21 @@ export function Hero() {
       {/* Responsive container: image on top, content below on mobile */}
       <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between gap-8 lg:gap-12 pb-2">
         {/* Left side - Content panel */}
-        <div className="w-full bg-black rounded-lg z-10 relative lg:w-[515px] lg:h-[510px] overflow-hidden">
-          <div className="p-4 sm:p-6 h-full flex flex-col">
-            <h1 className="text-white text-xl sm:text-2xl font-bold leading-tight mb-4">
-              Want to Turn Social Media Into a <span className="block">Profitable Career?</span>
+        <div className="w-full bg-black rounded-lg z-10 relative overflow-hidden">
+          <div className="p-4 sm:p-6 h-full flex flex-col sm:items-center sm:justify-center">
+            <h1 className="text-white lg:text-4xl md:text-3xl sm:text-2xl font-bold leading-tight mb-4">
+              Want to Turn Social Media Into  <span className="block">a Profitable Career?</span>
             </h1>
-            <h2 className="text-cyan-400 text-lg sm:text-xl font-semibold mb-6">
-              Discover your way to success <span className="block">with Fametonic:</span>
-            </h2>
+             <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold leading-tight"
+              style={{
+                color: "#10CBE0",
+                textShadow: "2px 2px 0px #FC004E, 4px 4px 0px rgba(252, 0, 78, 0.3)",
+              }}
+            >
+              Discover your way to success
+              <br />
+              with Fametonic:
+           </h2>
             <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8 flex-1">
               <div className="flex items-start gap-3">
                 <span className="text-yellow-400 text-lg flex-shrink-0">✨</span>

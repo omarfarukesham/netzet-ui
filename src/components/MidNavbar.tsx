@@ -10,7 +10,7 @@ const MidNavbar = () => {
     <nav className="bg-black backdrop-blur-sm text-white sticky top-0 z-50 w-full">
       {/* Desktop Layout - Figma Specifications */}
       <div 
-        className="hidden md:flex justify-between mx-auto px-4 sm:px-6 lg:px-8 mx-w-7xl mt-3"
+        className="hidden md:flex justify-between mx-auto px-4 sm:px-6 lg:px-8 mx-w-7xl my-4"
         style={{
           height: '74px',
           paddingLeft: '211px',
@@ -34,14 +34,14 @@ const MidNavbar = () => {
         <div className="flex items-start space-x-6 justify-start">
           <a 
             href="#" 
-            className="hover:text-cyan-400 transition-colors duration-200 font-medium text-lg"
+            className="hover:text-cyan-400 transition-colors duration-200 font-semibold font-[Figtree] text-[18px]"
             style={{ color: '#A9A9A9' }}
           >
             About us
           </a>
           <a 
             href="#" 
-            className="hover:text-cyan-400 transition-colors duration-200 font-medium text-lg"
+            className="hover:text-cyan-400 transition-colors duration-200 font-semibold text-[18px] font-[Figtree]"
             style={{ color: '#A9A9A9' }}
           >
             Contact
