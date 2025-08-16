@@ -1,5 +1,5 @@
-// import MidNavbar from "@/components/MidNavbar";
-import Hero from "@/components/Hero";
+// import Hero from "@/components/hero";
+import Hero from "@/components/hero";
 import MidNavbar from "@/components/MidNavbar";
 import TopNavbar from "@/components/TopNavbar";
 
